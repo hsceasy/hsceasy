@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HSC Easy is now Viorosa Maths</title>
+    <script>
+        const path = window.location.pathname
+            .replace(/^\/hsceasy\/?/, "/");
+
+        window.location.replace(
+            "https://www.viorosamaths.com" +
+            path +
+            window.location.search +
+            window.location.hash
+        );
+    </script>
+</head>
+<body>
+    <p>We've moved!</p>
+    <a href="https://www.viorosamaths.com/">
+        Visit Viorosa Maths
+    </a>
+</body>
+</html>
